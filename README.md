@@ -1,1 +1,2 @@
-React, Javascript 길찾기 알고리즘
+yarn install
+yarn dev
