@@ -1,11 +1,12 @@
 {
-  "name": "typescript-template",
+  "name": "pathfinding-algorithm",
   "version": "1.0.0",
   "author": "Mik_a <ilemik14@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --hot --inline",
-    "build": "webpack --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.js",
+    "product" : "git subtree push --prefix dist origin gh-pages"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
